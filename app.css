@@ -1,0 +1,347 @@
+body{
+    font-family: 'Arvo', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.h,.e,.l,.l1,.o,.i,.m,.s,.y,.e1,.d,.l3,.u,.k,.m1,.a,.n,.i1,.m2,.a1,.f,.u1,.l4,.l5,.s1,.t,.a2,.c,.k1,.w,.e2,.b,.d1,.e3,.v,.e4,.l6,.o1,.p,.e5,.r{
+    display: none;
+}
+.display1{
+    display: inline;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.11);
+
+
+}
+
+.logo{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+
+}
+a:hover{
+    color: black;
+}
+.menu{
+    margin-right: 50px;
+}
+.first {
+    background-color: black;
+    height: 3px;
+    width: 30px;
+    transition: 1s;
+    border-radius: 30px;
+    
+}
+.second {
+    background-color: black;
+    height: 3px;
+    width: 30px;
+    margin-top: 7px;
+    transition: 1s;
+    border-radius: 30px;
+
+}
+.last {
+    background-color: black;
+    height: 3px;
+    width: 30px;
+    margin-top: 7px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.translate {
+   
+    transform: translateY(10px);
+   
+}
+.ttranslate {
+    
+    transform: translateY(-10px);
+
+}
+.srotate{
+    transform: rotate(45deg);
+}
+.rotate {
+    
+    transform: translateY(10px) rotate(45deg);
+
+}
+.rrotate {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.scroll{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.11);
+    height: 0px;
+    
+    transition: 1s;
+
+}
+.fad1,.fad2,.fad3,.fad0{
+    
+    display: none;
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+
+   
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ .fadeIn {
+    animation-duration: 1s;
+    animation-name: fadeIn;
+ }
+
+.display{
+    display: block;
+}
+.poster{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.frontimg{
+    width: 40%;
+    height: auto;
+    margin-left: 150px;
+    box-shadow: none;
+    border: none;
+}
+.fronthead{
+    text-align: left;
+    margin-right: 150px ;
+    font-size: 40px;
+}
+.aboutdiv{
+    
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    transition: 0.5s ease-in-out;
+    border-radius: 7px;
+
+}
+.about{
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.headp{
+    line-height: 2;
+    
+}
+.firstc,.secondc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.html,.css,.js,.node,.express,.mongo{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.5s ease-in-out;
+}
+
+.html:hover,.css:hover,.js:hover,.node:hover,.express:hover,.mongo:hover,.contactdiv:hover,.aboutdiv:hover{
+    transform: perspective(200px) translateZ(15px);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.skills{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    letter-spacing: 20px;
+}
+.html_img,.css_img,.js_img,.node_img,.express_img,.mongo_img{
+    width: 50%;
+    height: auto;
+}
+.contactdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 0.5s ease-in-out;
+    border-radius: 7px;
+}
+
+.contact{
+    margin-bottom: 30px;
+    
+}
+.btnmail{
+    padding: 15px;
+    margin: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: 0.5s;
+}
+.btnmail:hover{
+    color: black;
+    background-color: white;
+   
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.maillink{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.contact{
+    padding-bottom: 0px;
+}
+
+.footer{
+    height: 80px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.contactp{
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .logo{
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+    
+    }
+    .menu{
+        margin-right: 30px;
+    }
+    .poster{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .frontimg{
+        width: 90%;
+        height: auto;
+        margin-left: 0px;
+        box-shadow: none;
+        border: none;
+    }
+    .fronthead{
+        text-align: center;
+        margin-right: 0px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .aboutdiv{
+    
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        transition: 0.5s ease-in-out;
+    
+    }
+    .about{
+        font-size: 25px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+       letter-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .headp{
+        font-size: 16px;
+        
+    }
+    .firstc,.secondc{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0px;
+        flex-wrap: wrap;
+    }
+    
+    
+    .html,.css,.js,.node,.express,.mongo{
+        height: 400px;
+        width: 300px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: 0.5s ease-in-out;
+        margin-bottom: 50px;
+    }
+    .contactdiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+        padding: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+        transition: 0.5s ease-in-out;
+        border-radius: 7px;
+    }
+    
+  }
